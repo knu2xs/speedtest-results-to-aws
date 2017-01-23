@@ -1,0 +1,25 @@
+{
+  "name": "speedtest-results-to-aws",
+  "version": "0.0.1",
+  "description": "Run SpeedTest, and record results to Amazon Web Services DynamoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knu2xs/speedtest-results-to-aws.git"
+  },
+  "keywords": [
+    "SpeedTest"
+  ],
+  "author": "Joel McCune (http://github.com/knu2xs)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/knu2xs/speedtest-results-to-aws/issues"
+  },
+  "homepage": "https://github.com/knu2xs/speedtest-results-to-aws#readme",
+  "dependencies": {
+    "speedtest.net": "^0.1.0"
+  }
+}
