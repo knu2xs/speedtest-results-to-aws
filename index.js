@@ -2,9 +2,7 @@
 /* global require */
 
 // hard variables to ensure always the same place
-const dynamoTableName = "internet-speed",
-    logDirectory = "/var/log",
-    logFile = "speedtest" + new Date().getTime() + ".log";
+const dynamoTableName = "internet-speed";
 
 // package imports
 const speedTest = require('speedtest.net'),
