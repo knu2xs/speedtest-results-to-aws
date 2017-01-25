@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/knu2xs/speedtest-results-to-aws#readme",
   "dependencies": {
-    "speedtest.net": "^0.1.0"
+    "aws-sdk": "^2.7.27",
+    "speedtest.net": "^0.1.0",
+    "uuid": "^3.0.1"
   }
 }
